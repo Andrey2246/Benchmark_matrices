@@ -14,7 +14,7 @@ void dgemm_blas(vector<vector<double>> &m1, vector<vector<double>> &m2, vector<v
                 out[i][j] += m1[i][k] * m2[k][j];
             }
         }
-        cout<<i<<endl;
+        cout<<i<<endl;//123
     }
 }
 
